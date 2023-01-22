@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ajax의 개요 및 작성법(xhr객체)</title>
+<script>
+	function test(){
+		/* 
+		  IE,IE 외의 chrome,firefox,,,,
+		  IE7 이후부터 ,IE외 다른 브라우저=>XMLHttpRequest속성
+		*/
+		if(window.XMLHttpRequest){
+			var xhrObject=new XMLHttpRequest();//객체생성
+			alert(xhrObject);//[xhrObject]
+		}
+	}
+</script>
+</head>
+<body onload="test()">
+
+</body>
+</html>

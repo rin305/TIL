@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>3.domobj3(key,value를 이용해서 객체생성(JSON 표기법))</title>
+<script>
+/* 
+형식) var 객체명={
+		속성명(=멤버변수명):값1,
+		속성명2:값2,
+		,,,
+		함수명:function(매개변수명,,){내용 기술}
+}
+ 	var person="홍길동"; 문자열 저장변수
+ 	var person={}	//class Person { }와 동일하다(내용이 없는 객체)
+ 	var person=[] //배열객체 [{},{},{},,,] 익명객체를 여러개 담을 수 있는 객체
+*/
+	var person={
+ 		name:'홍길동', //key(속성명):값(value)
+ 		age:23,
+ 		eat:function(food){
+ 			alert(this.name+'은 오늘 '+food+"을 먹을 예정입니다.");
+ 		}
+ 	}
+ 	//객체명.속성명
+ 	document.write(person.name);//홍길동
+ 	person.eat('도시락');//객체명.함수명(~)
+</script>
+</head>
+<body>
+
+</body>
+</html>
