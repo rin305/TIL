@@ -24,12 +24,13 @@ $(function(){
 })
 </script>
 ```
-![slideEffect](img/slide.gif)
+<img src="/jQuery/img/slide.gif" width="40%" height="25%"/>
 
 따라서 `slideUp()`과 `slideDown()`을 번갈아가며 실행시키면 다음과 같은 모습이 된다.
 
 # fadeIn, fadeOut, fadeToggle
 ![fadeEffect](img/fade.gif)
+
 선택한 요소를 흐려지게 하여 숨기거나(fade in), 숨겨진 요소가 점차 선명해져 나타나게 해주는(fade out) 메서드를 말한다.
 ```html
 <script>
@@ -63,6 +64,7 @@ $(function(){
 # animate
 선택한 요소에 다양한 효과(날아가기, 작아지거나 커지기 등)를 적용 시킬 수 있다.
 ![animate](img/animate.gif)
+
 **형식** $('효과대상자').animate({스타일속성},유지시간,가속도,콜백함수)  
 ```html
 <script>
