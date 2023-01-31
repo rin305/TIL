@@ -67,6 +67,7 @@ $(function(){
 
 # animate
 선택한 요소에 다양한 효과(날아가기, 작아지거나 커지기 등)를 적용 시킬 수 있다.
+
 **형식** : $('효과대상자').animate({스타일속성},유지시간,가속도,콜백함수) 
 
 <img src="/jQuery/img/animate.gif" width="50%" height="25%"/>
