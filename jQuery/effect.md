@@ -28,6 +28,8 @@ $(function(){
 
 따라서 `slideUp()`과 `slideDown()`을 번갈아가며 실행시키면 다음과 같은 모습이 된다.
 
+
+
 # fadeIn, fadeOut, fadeToggle
 <img src="/jQuery/img/fade.gif" width="50%" height="20%"/>
 
@@ -60,6 +62,8 @@ $(function(){
 })
 </script>
 ```
+
+
 
 # animate
 선택한 요소에 다양한 효과(날아가기, 작아지거나 커지기 등)를 적용 시킬 수 있다.
